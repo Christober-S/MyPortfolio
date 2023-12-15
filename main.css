@@ -1,0 +1,284 @@
+@keyframes gradientstyling{
+    from{
+        background-position:left;
+    }
+    to{
+        background-position: right;
+    }
+}
+
+ @-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.4;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+body{
+    width:100%;
+    display:grid;
+    background-color: white;
+    margin: 0 auto;
+    /*background gradient style and its color combination*/
+    background-color: #7028E4;
+    background-color: #E5B2CA;
+    
+    background-image: linear-gradient(45deg, #7028E4 0%, #E5B2CA 100%);
+    background-size:500%;
+    background-position: left;
+    /*transistion & animation of background-gradient*/
+    transition: background-position 8s;
+    animation: gradientstyling 5s infinite;
+    animation-direction:alternate;
+}
+h1{
+    
+   font-family: 'Roboto Mono', monospace;
+    font-size: 2em;
+    margin: 20px;
+}
+
+
+.headbar{
+  
+    display: flex;
+    justify-content: left;
+    place-items: center;
+    column-gap: 500px;
+}
+.text-link,.text-link:visited{
+   color: #001f3f;
+    text-decoration: none;
+    font-size: 2em;
+    margin-top:10px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-link:hover,.text-link:active{
+    color: #ffffff;
+    background-color:#001f3f;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    padding: 10px;
+    transition:0.4s;
+}
+
+.heading{
+    
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    grid-template-columns: 125px 125px 125px 125px;
+    column-gap: 80px;
+    margin-top: 30px;
+    margin-bottom:30px;
+    
+}
+.content-one{
+    margin-top: 20px;
+}
+.box-one{
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+}
+.hello{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3em;
+    margin: 20px;
+}
+.text-one{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    margin:20px;
+}
+/*image one css*/
+img{
+  border-radius: 10px;
+}
+.image-one{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    left: 0;
+   
+}
+.box-two{
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 350px 150px;
+    grid-template-rows: auto;
+}
+
+h2{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2em;
+    margin: 20px;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+}
+.text-two{
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2em;
+    margin:10px;
+    padding: 20px;
+    box-sizing:border-box;
+    border-radius: 10px;
+    box-shadow: #f8f8ff;
+    background-color: #7028E4;
+    background-color: #E5B2CA;
+    background-image: linear-gradient(45deg, #7028E4 0%, #E5B2CA 100%);
+    background-size:500%;
+    background-position: left;
+    /*transistion & animation of background-gradient*/
+    transition: background-position 8s;
+    animation: gradientstyling 5s infinite;
+    animation-direction:alternate;
+}
+hr{
+    border: 1px solid #000;
+    width: 600px; /* Set the desired width for your dashed line */
+    margin-bottom: 10px;
+}
+.list-cont{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    place-items: center;
+    justify-content: left;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2em;
+    margin:10px;
+}
+.members{
+    text-align: justify;
+    
+    margin:5px;
+    
+}
+.box-one{
+	-webkit-animation: tracking-in-expand 4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	animation: tracking-in-expand 4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+.box-three{
+      display: grid;
+     grid-template-columns: 750px 700px;
+}
+.port-content{
+  display: grid;
+  grid-template-rows:300px 350px ;
+  row-gap: 30px;
+}
+.bset-one{
+  display: grid;
+  grid-template-columns: 50% 50%;
+ 
+}
+p{
+  margin: 5px;
+}
+.blogs{
+  display: grid;
+  grid-template-rows: 60px 200px 40px;
+  place-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  
+  margin:10px;
+  padding: 10px;
+  box-sizing:border-box;
+  border-radius: 10px;
+  box-shadow: #f8f8ff;
+  background-color: #7028E4;
+  background-color: #E5B2CA;
+  background-image: linear-gradient(45deg, #7028E4 0%, #E5B2CA 100%);
+  background-size:500%;
+  background-position: left;
+  /*transistion & animation of background-gradient*/
+  transition: background-position 8s;
+  animation: gradientstyling 5s infinite;
+  animation-direction:alternate;
+}
+.bc{
+  font-size: large;
+  margin-top: 5px 60;
+}
+.bset-two{
+    display: grid;
+    grid-template-columns:50% 50%;
+    
+}
+h3{
+  text-decoration: none;
+  color:#001f3f;
+  font-size: 2em;
+  margin-top:10px;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 30px;
+}
+h3:hover{
+  letter-spacing:1px ;
+  transition: 1s;
+}
+.image-three{
+  display: grid;
+  justify-content: center;
+  place-items: center;
+}
+
+.contact{
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    grid-template-columns: 80px 80px 80px 80px;
+    column-gap: 15px;
+    margin: 20px;
+    padding: 20px;
+}
+h4{
+    display:grid;
+    justify-content: center;
+    place-items:center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+}
+a img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  transition: transform 0.3s ease; /* Add a smooth transition to the transform property */
+}
+a:hover img {
+  transform: scale(1.1); /* Increase the size of the image on hover (adjust the scale value as needed) */
+}
